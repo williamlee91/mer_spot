@@ -18,7 +18,7 @@ LSSNet: A Two-stream Convolutional Neural Network for Spotting Macro- and Micro-
 ### [SAMM] 
 
 ## Models & Results
-### [Download Address](https://pan.baidu.com/s/1s7Slm_2ig1Lbc1nzlhlelA), password:pu9o
+### [Address](https://pan.baidu.com/s/1s7Slm_2ig1Lbc1nzlhlelA), password:pu9o
 
 If you have any question, please cantact me immediately.
 E-main address:yuwangwang91@163.com
