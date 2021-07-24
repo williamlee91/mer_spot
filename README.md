@@ -21,8 +21,8 @@ LSSNet: A Two-stream Convolutional Neural Network for Spotting Macro- and Micro-
 ### [Address](https://pan.baidu.com/s/1s7Slm_2ig1Lbc1nzlhlelA), password:pu9o
 
 
-# Error 1 (2021.7.24)
-## In the file of fi_score.py, M1 is 84 (54 is wrong)
+## Error 1 (2021.7.24)
+### In the file of fi_score.py, M2 is 84 (54 is wrong)
 
 If you have any question, please cantact me immediately.
 E-main address:yuwangwang91@163.com
