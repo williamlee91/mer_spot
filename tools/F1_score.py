@@ -210,7 +210,7 @@ def main_topk(path, dataset, annotation, version):
             # M2： Number of micro-expressions
             if dataset == 'cas(me)^2':
                 M1= 282
-                M2 = 54
+                M2 = 84
             else:
                 M1 = 340
                 M2 = 159
@@ -478,7 +478,7 @@ def main_threshold(path, dataset, annotation, version, label_frequency, start_th
             # M2： Number of micro-expressions
             if dataset == 'cas(me)^2':
                 M1= 282
-                M2 = 54
+                M2 = 84
             else:
                 M1 = 340
                 M2 = 159
@@ -542,21 +542,21 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Test')
 
-    # parser.add_argument('--path', type=str, default=r'/home/yww/mer_spot/output_V28/cas(me)^2')
-    # parser.add_argument('--ann', type=str, default=r'/home/yww/mer_spot/casme2_annotation.csv')
-    # parser.add_argument('--dataset', type=str, default=r'cas(me)^2')
-    # parser.add_argument('--version', type=int, default=28)
-    # parser.add_argument('--top_k', type=bool, default=False)
-    # parser.add_argument('--label_frequency', type=float, default=1.0)
-    # parser.add_argument('--start_threshold', type=int, default=300)
-
-    parser.add_argument('--path', type=str, default=r'/home/yww/mer_spot/output_V28/samm_5_5')
-    parser.add_argument('--ann', type=str, default=r'/home/yww/mer_spot/samm_annotation_merge.csv')
-    parser.add_argument('--dataset', type=str, default=r'samm')
+    parser.add_argument('--path', type=str, default=r'/home/yww/mer_spot/output_V28/cas(me)^2')
+    parser.add_argument('--ann', type=str, default=r'/home/yww/mer_spot/casme2_annotation.csv')
+    parser.add_argument('--dataset', type=str, default=r'cas(me)^2')
     parser.add_argument('--version', type=int, default=28)
     parser.add_argument('--top_k', type=bool, default=False)
-    parser.add_argument('--label_frequency', type=float, default=5.0)
-    parser.add_argument('--start_threshold', type=int, default=100)
+    parser.add_argument('--label_frequency', type=float, default=1.0)
+    parser.add_argument('--start_threshold', type=int, default=300)
+
+    # parser.add_argument('--path', type=str, default=r'/home/yww/mer_spot/output_V28/samm_5_5')
+    # parser.add_argument('--ann', type=str, default=r'/home/yww/mer_spot/samm_annotation_merge.csv')
+    # parser.add_argument('--dataset', type=str, default=r'samm')
+    # parser.add_argument('--version', type=int, default=28)
+    # parser.add_argument('--top_k', type=bool, default=False)
+    # parser.add_argument('--label_frequency', type=float, default=5.0)
+    # parser.add_argument('--start_threshold', type=int, default=100)
     args = parser.parse_args()
 
     path = args.path
