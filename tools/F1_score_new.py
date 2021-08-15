@@ -424,7 +424,7 @@ if __name__ == '__main__':
     # parser.add_argument('--top_k', type=bool, default=False)
     # parser.add_argument('--label_frequency', type=float, default=1.0)
     # parser.add_argument('--start_threshold', type=int, default=300)
-    # parser.add_argument('--most_pos_num', type=int, default=8)
+    # parser.add_argument('--most_pos_num', type=int, default=15)
 
     parser.add_argument('--path', type=str, default='/home/yww/1_spot/MSA-Net/output_V28/samm_5')
     parser.add_argument('--ann', type=str, default='/home/yww/1_spot/samm_annotation_merge.csv')
